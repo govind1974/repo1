@@ -1,0 +1,12 @@
+com\cg\test\FactoryTest.class
+com\cg\test\Param2Test.class
+com\cg\test\SumSeriesTest.class
+com\cg\test\EBBillTest.class
+com\cg\test\TestLifecycleLogger.class
+com\cg\test\JUnit5DynamicTests.class
+com\cg\test\MyExecutable.class
+com\cg\test\AllTest.class
+com\cg\test\CalcTest.class
+com\cg\test\LifeCycleTest.class
+com\cg\test\PalindromeTest.class
+com\cg\test\TaxTest.class
