@@ -3,6 +3,7 @@ package com.cg.test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
@@ -39,6 +40,7 @@ public class CalcTest implements TestLifecycleLogger{
 	}
 	
 	@Test
+	@Disabled
 	public void testSeries4(){
 		CalService ser = new CalService();
 		double actual = ser.calcSeries(10,5);
@@ -46,6 +48,7 @@ public class CalcTest implements TestLifecycleLogger{
 	}
 	
 	@Test
+	@Disabled
 	public void testSeries5(){
 		CalService ser = new CalService();
 		double actual = ser.calcSeries(10,8,2);
