@@ -44,5 +44,12 @@ public class CalcTest implements TestLifecycleLogger{
 		double actual = ser.calcSeries(10,5);
 		assertEquals(2.0, actual);
 	}
+	
+	@Test
+	public void testSeries5(){
+		CalService ser = new CalService();
+		double actual = ser.calcSeries(10,8,2);
+		assertEquals(10.0, actual);
+	}
 
 }
