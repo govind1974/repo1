@@ -40,7 +40,6 @@ public class CalcTest implements TestLifecycleLogger{
 	}
 	
 	@Test
-	@Disabled
 	public void testSeries4(){
 		CalService ser = new CalService();
 		double actual = ser.calcSeries(10,5);
@@ -48,7 +47,6 @@ public class CalcTest implements TestLifecycleLogger{
 	}
 	
 	@Test
-	@Disabled
 	public void testSeries5(){
 		CalService ser = new CalService();
 		double actual = ser.calcSeries(10,8,2);
