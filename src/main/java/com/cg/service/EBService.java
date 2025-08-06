@@ -7,7 +7,7 @@ public class EBService {
 		if(units > 200)
 			bill = 100 * 1 + 100 * 2 + (units - 200) * 4;
 		else if(units > 100)
-			bill = 100 * 1 + (units - 100) * 3;
+			bill = 100 * 1 + (units - 100) * 2.5;
 		else
 			bill = units * 1;
 		return bill;
